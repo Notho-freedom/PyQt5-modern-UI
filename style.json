@@ -1,0 +1,79 @@
+{
+	"QMainWindow":[
+		{
+			"tittle":"Project Manager",
+			"icon":":/icons/icons/grid.svg",
+			"frameless": true,
+			"transluscentBg": true,
+			"sizeGrip": "size_grip",
+			"navigation":[
+				{
+					"minimize":"minimizeWindow",
+					"close": "closeWindow",
+					"restore":[
+						{	
+							"buttonName": "restoreWindow"
+						}
+					],
+					"moveWindow": "header",
+					"tittleBar": "header"
+				}
+			]
+		}
+	],
+	"QCustomSlideMenu": [{
+		"name": "left_menu_main_container",
+		"defaultSize": [{
+			"width": 200,
+			"height": "auto"
+		}],
+		"collapsedSize": [{
+			"width": 0,
+			"height": "parent"
+		}],
+		"expandedSize": [{
+			"width": 200,
+			"height": "parent"
+		}],
+		"toggleButton": [{
+			"buttonName": "toggle_button"
+		}],
+		"menuTransitionAnimation": [{
+			"animationDuration": 1000,
+			"animationEasingCurve": "OutBack"
+		}]
+	}],
+	"QPushButtonGroup": [{
+		"Buttons": [
+			"dashboard_btn",
+			"projects_btn",
+			"reports_btn",
+			"notifications_btn",
+			"connect_btns",
+			"settings_btns"
+		],
+		"Style":[{
+			"Active": "background-color: rgb(20, 28, 39); border-left: 3px solid rgb(7 ,98 ,160);",
+			"NotActive": ""
+		}]
+	}],
+	"QStackedWidget":[
+		{
+			"name":"stackedWidget",
+			"navigation":[
+				{
+					"navigationButtons":[
+						{
+							"dashboard_btn": "page",
+							"projects_btn": "page_2",
+							"reports_btn": "page_3",
+							"notifications_btn": "page_4",
+							"connect_btns": "page_5",
+							"settings_btns": "page_6"
+						}
+					]
+				}
+			]
+		}
+	]
+}

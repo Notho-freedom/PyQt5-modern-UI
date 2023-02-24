@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ed2e07510c8f3265c945c33c56cbe007 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ed2e07510c8f3265c945c33c56cbe007" ></div>
+        
+</body>
+<script>    
+    
+            var map_ed2e07510c8f3265c945c33c56cbe007 = L.map(
+                "map_ed2e07510c8f3265c945c33c56cbe007",
+                {
+                    center: [35.068359, -6.751896],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 2,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_00e5aaf014e46c4ab45ac2209fc95591 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ed2e07510c8f3265c945c33c56cbe007);
+        
+    
+            var marker_b96a3a1b426a56bab9f99b82ffa5b6e8 = L.marker(
+                [-1.28333, 36.81667],
+                {}
+            ).addTo(map_ed2e07510c8f3265c945c33c56cbe007);
+        
+    
+            var icon_d43dd9f74fb750e5448e6e76c5ca0a9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "road", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_b96a3a1b426a56bab9f99b82ffa5b6e8.setIcon(icon_d43dd9f74fb750e5448e6e76c5ca0a9d);
+        
+    
+        var popup_280ac53ef2d33c34cff7c68542762346 = L.popup({"maxWidth": 500});
+
+        
+            var html_8684107ff3c545f896fe43cff8698de3 = $(`<div id="html_8684107ff3c545f896fe43cff8698de3" style="width: 100.0%; height: 100.0%;">Building Uhuru Highway Fly-over 	                  </div>`)[0];
+            popup_280ac53ef2d33c34cff7c68542762346.setContent(html_8684107ff3c545f896fe43cff8698de3);
+        
+
+        marker_b96a3a1b426a56bab9f99b82ffa5b6e8.bindPopup(popup_280ac53ef2d33c34cff7c68542762346)
+        ;
+
+        
+    
+    
+            marker_b96a3a1b426a56bab9f99b82ffa5b6e8.bindTooltip(
+                `<div>
+                     Nairobi- Kenya
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9ddd30f738980e9a87db84a9cc3564d1 = L.marker(
+                [-25.740529, 28.212891],
+                {}
+            ).addTo(map_ed2e07510c8f3265c945c33c56cbe007);
+        
+    
+            var icon_bcb72b8959a31efb6b86f3596a2a6a8a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "building", "iconColor": "white", "markerColor": "green", "prefix": "fa"}
+            );
+            marker_9ddd30f738980e9a87db84a9cc3564d1.setIcon(icon_bcb72b8959a31efb6b86f3596a2a6a8a);
+        
+    
+        var popup_9648c44fd66a027ebd7a34a717c7bd92 = L.popup({"maxWidth": 500});
+
+        
+            var html_7f0bf0fef7521dcf65f469e1621a800c = $(`<div id="html_7f0bf0fef7521dcf65f469e1621a800c" style="width: 100.0%; height: 100.0%;">Building Construction 	                  </div>`)[0];
+            popup_9648c44fd66a027ebd7a34a717c7bd92.setContent(html_7f0bf0fef7521dcf65f469e1621a800c);
+        
+
+        marker_9ddd30f738980e9a87db84a9cc3564d1.bindPopup(popup_9648c44fd66a027ebd7a34a717c7bd92)
+        ;
+
+        
+    
+    
+            marker_9ddd30f738980e9a87db84a9cc3564d1.bindTooltip(
+                `<div>
+                     Pretoria- South Africa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_04eaa67a098f1dad0e6e5175f2c93012 = L.marker(
+                [32.509762, 20.632324],
+                {}
+            ).addTo(map_ed2e07510c8f3265c945c33c56cbe007);
+        
+    
+            var icon_1c0294a85780811d634200bcf29c352b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plane", "iconColor": "white", "markerColor": "purple", "prefix": "fa"}
+            );
+            marker_04eaa67a098f1dad0e6e5175f2c93012.setIcon(icon_1c0294a85780811d634200bcf29c352b);
+        
+    
+        var popup_1279e32e7e7edfc8367d1308269f41ac = L.popup({"maxWidth": 500});
+
+        
+            var html_bcf46cb9688521d92142bd798e04b3ca = $(`<div id="html_bcf46cb9688521d92142bd798e04b3ca" style="width: 100.0%; height: 100.0%;">Construction Of The Airport 	                  </div>`)[0];
+            popup_1279e32e7e7edfc8367d1308269f41ac.setContent(html_bcf46cb9688521d92142bd798e04b3ca);
+        
+
+        marker_04eaa67a098f1dad0e6e5175f2c93012.bindPopup(popup_1279e32e7e7edfc8367d1308269f41ac)
+        ;
+
+        
+    
+    
+            marker_04eaa67a098f1dad0e6e5175f2c93012.bindTooltip(
+                `<div>
+                     Bengazi - Libya
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a560636ccc74fda3d81022d748f49331 = L.marker(
+                [55.341642, -115.400391],
+                {}
+            ).addTo(map_ed2e07510c8f3265c945c33c56cbe007);
+        
+    
+            var icon_e70bcd4a879f3a0961d19df490a6d9ef = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "industry", "iconColor": "white", "markerColor": "red", "prefix": "fa"}
+            );
+            marker_a560636ccc74fda3d81022d748f49331.setIcon(icon_e70bcd4a879f3a0961d19df490a6d9ef);
+        
+    
+        var popup_7f8dcf2e50b959b70955c40c4b5e9624 = L.popup({"maxWidth": 500});
+
+        
+            var html_84fd1a95f46d4311f8144f3e3da72250 = $(`<div id="html_84fd1a95f46d4311f8144f3e3da72250" style="width: 100.0%; height: 100.0%;">Timber factory construction 	                  </div>`)[0];
+            popup_7f8dcf2e50b959b70955c40c4b5e9624.setContent(html_84fd1a95f46d4311f8144f3e3da72250);
+        
+
+        marker_a560636ccc74fda3d81022d748f49331.bindPopup(popup_7f8dcf2e50b959b70955c40c4b5e9624)
+        ;
+
+        
+    
+    
+            marker_a560636ccc74fda3d81022d748f49331.bindTooltip(
+                `<div>
+                     Alberta - Canada
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6b97d1ab6823891495f201c6806dfb40 = L.marker(
+                [45.490946, 9.173584],
+                {}
+            ).addTo(map_ed2e07510c8f3265c945c33c56cbe007);
+        
+    
+            var icon_04ccb9ceffebaed4611d5644d068d9e0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "pencil", "iconColor": "white", "markerColor": "orange", "prefix": "fa"}
+            );
+            marker_6b97d1ab6823891495f201c6806dfb40.setIcon(icon_04ccb9ceffebaed4611d5644d068d9e0);
+        
+    
+        var popup_e9762fa0134d54832628e4d8addeb979 = L.popup({"maxWidth": 500});
+
+        
+            var html_9ffebe5c8141f581c90f23b4aa44d348 = $(`<div id="html_9ffebe5c8141f581c90f23b4aa44d348" style="width: 100.0%; height: 100.0%;">Urban city planning 	                  </div>`)[0];
+            popup_e9762fa0134d54832628e4d8addeb979.setContent(html_9ffebe5c8141f581c90f23b4aa44d348);
+        
+
+        marker_6b97d1ab6823891495f201c6806dfb40.bindPopup(popup_e9762fa0134d54832628e4d8addeb979)
+        ;
+
+        
+    
+    
+            marker_6b97d1ab6823891495f201c6806dfb40.bindTooltip(
+                `<div>
+                     Milan - Italy
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
